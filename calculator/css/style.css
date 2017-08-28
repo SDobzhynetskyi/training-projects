@@ -1,0 +1,45 @@
+.wrapper {
+  width: 1024px;
+  text-align: center;
+}
+
+.calculator {
+  display: block;
+  width: 200px;
+  height: auto;
+  border: 1px solid red;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+.input_output_field {
+  max-width: 100%;
+  height: 40px;
+  border: 1px solid green;
+  text-align: right;
+  vertical-align: middle;
+  padding: 0 5px;
+  margin: 3px;
+}
+
+#typing_field {
+  display: block;
+  height: 40px;
+  font-size: 32px;
+}
+
+.action_buttons_field table {
+  width: 100%;
+
+}
+
+.action_buttons_field td {
+  display: table-cell;
+  width: 25%;
+  height: 20%;
+}
+.action_buttons_field td input {
+  display: block;
+  width: 100%;
+  height: 35px;
+}
